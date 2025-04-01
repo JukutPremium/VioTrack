@@ -63,7 +63,7 @@
                         <th class="py-2 px-4">Reason</th>
                         <th class="py-2 px-4">Punishment</th>
                         <th class="py-2 px-4">Points</th>
-                        <th class="py-2 px-4">Actions</th>
+                        {{-- <th class="py-2 px-4">Actions</th> --}}
                     </tr>
                 </thead>
                 <tbody id="violations-list" class="text-gray-800 dark:text-gray-200"></tbody>
@@ -95,9 +95,7 @@ async function showViolations(userId) {
                     <td class="py-2 px-4">${violation.reason}</td>
                     <td class="py-2 px-4">${violation.punishment}</td>
                     <td class="py-2 px-4">${violation.rule.points}</td>
-                    <td class="py-2 px-4">
-                        <button onclick="deleteViolation(${violation.id})" class="text-red-500 hover:text-red-700">Delete</button>
-                    </td>
+                    
                 </tr>
             `;
             totalPoints += violation.rule.points;

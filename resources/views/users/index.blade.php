@@ -78,7 +78,7 @@
         <div class="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-lg w-2/3">
             <h3 class="text-lg font-semibold mb-4 text-gray-800 dark:text-gray-200">Violations Details</h3>
 
-            <h4 class="font-semibold mb-2">Total Points: <span id="total-points" class="text-red-500">0</span></h4>
+            <h4 class="font-semibold mb-2 ">Total Points: <span id="total-points" class="text-red-500">0</span></h4>
 
             <table class="w-full border-collapse">
                 <thead>

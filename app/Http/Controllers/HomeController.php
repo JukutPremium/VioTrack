@@ -40,6 +40,6 @@ class HomeController extends Controller
 
         $rules = Rule::all();
 
-        return view('dashboard', compact('users', 'rules'));
+        return view('home', compact('users', 'rules'));
     }
 }

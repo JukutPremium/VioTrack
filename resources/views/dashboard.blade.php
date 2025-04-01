@@ -55,7 +55,7 @@
 
             <h4 class="font-semibold mb-2">Total Points: <span id="total-points" class="text-red-500">0</span></h4>
 
-            <table class="w-full border-collapse">
+            <table class="w-full border-collapse h-10">
                 <thead>
                     <tr class="bg-gray-200 dark:bg-gray-700 text-gray-700 dark:text-gray-200 uppercase text-sm">
                         <th class="py-2 px-4">No</th>
@@ -66,7 +66,7 @@
                         <th class="py-2 px-4">Actions</th>
                     </tr>
                 </thead>
-                <tbody id="violations-list" class="text-gray-800 dark:text-gray-200"></tbody>
+                <tbody id="violations-list" class="text-gray-800 dark:text-gray-200 h-10"></tbody>
             </table>
 
             <!-- Form Tambah Pelanggaran -->
