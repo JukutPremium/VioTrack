@@ -31,7 +31,7 @@
 **1. Clone the repository**:
 
 ```js
-git clone https://github.com/JukutPremium/RememoriesBot.git
+git clone https://github.com/JukutPremium/VioTrack.git
 ```
 **2. Install Composer Package**:
 
