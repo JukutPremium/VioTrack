@@ -77,6 +77,16 @@ php artisan migrate:fresh --seed
 composer run dev
 ```
 
+## Login Session
+- As Teacher
+```
+guru@example.com & password
+```
+- As Student
+```
+siswa@example.com & password
+```
+
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
